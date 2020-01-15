@@ -1,0 +1,83 @@
+.page
+{
+
+  color: lightblue;
+  width: 600px;
+  height: 500px;
+  background-image: url('becode.png');
+  border: 5px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+}
+
+h2
+  {
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+.photo img
+  {
+    max-width: 18%;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
+  }
+
+.photo
+  {
+
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+a:link
+{
+  text-decoration: none;
+  color: lightblue;
+}
+
+.info
+  {
+    width: 180px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-end;
+    padding-left: 50px;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
+  }
+
+.links
+  {
+    float: right;
+    width: 180px;
+    padding-right: 60px;
+    margin-top: -265px;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
+    flex-flow: column wrap;
+    justify-content:  space-around;
+    align-content: space-around;
+    
+
+
+
+
+  }
+
+button
+  {
+    background:    #00ffff;
+background:    linear-gradient(#00ffff, #3d85c6);
+border-radius: 1000px;
+padding:       8px 20px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+  }
